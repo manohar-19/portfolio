@@ -22,7 +22,7 @@ const Portfolio = () => {
 
           <div className="portfolio__item-cta">
             <div>
-              <a href="https://github.com/manohar-19/Weather-Forecast-Application" className="btn" target="_blank">
+              <a href="https://github.com/manohar-19/Weather-Forecast-Application" className="btn" target="_blank" rel="noopener noreferrer">
                 Github
               </a>
             </div>
@@ -40,10 +40,10 @@ const Portfolio = () => {
           </div>
           <h3>Netflix Clone</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/manohar-19/NetFlix-Clone-React" className="btn" target="_blank">
+            <a href="https://github.com/manohar-19/NetFlix-Clone-React" className="btn" target="_blank" rel="noopener noreferrer">
               Github
             </a>
-            <a href="https://netflix-clone-f2547.web.app/" className="btn btn-primary" target="_blank">
+            <a href="https://netflix-clone-f2547.web.app/" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
               Live Demo
             </a>
           </div>
@@ -55,10 +55,10 @@ const Portfolio = () => {
           </div>
           <h3>Calculator App</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/manohar-19/Calculator-React" className="btn" target="_blank">
+            <a href="https://github.com/manohar-19/Calculator-React" className="btn" target="_blank" rel="noopener noreferrer">
               Github
             </a>
-            <a href="https://csb-kmucvs.netlify.app/" className="btn btn-primary" target="_blank">
+            <a href="https://csb-kmucvs.netlify.app/" className="btn btn-primary" target="_blank" rel="noopener noreferrer">
               Live Demo
             </a>
           </div>
@@ -70,7 +70,7 @@ const Portfolio = () => {
           </div>
           <h3>E-commerce Website</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/manohar-19/Online-Cake-Shop-Angular-Spring-boot-mysql" className="btn" target="_blank">
+            <a href="https://github.com/manohar-19/Online-Cake-Shop-Angular-Spring-boot-mysql" className="btn" target="_blank" rel="noopener noreferrer">
               Github
             </a>
           </div>
@@ -82,7 +82,7 @@ const Portfolio = () => {
           </div>
           <h3>Microservice</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/manohar-19/spring-boot-microservices" className="btn"  target="_blank">
+            <a href="https://github.com/manohar-19/spring-boot-microservices" className="btn"  target="_blank" rel="noopener noreferrer">
               Github
             </a>
           </div>
@@ -94,7 +94,7 @@ const Portfolio = () => {
           </div>
           <h3>JWT using spring boot</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/manohar-19/spring-boot-jwt" className="btn" target="_blank">
+            <a href="https://github.com/manohar-19/spring-boot-jwt" className="btn" target="_blank" rel="noopener noreferrer">
               Github
             </a>
           </div>

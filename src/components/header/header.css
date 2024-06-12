@@ -26,6 +26,7 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+  z-index: 5;
 }
 
 .header__socials::after {
@@ -48,6 +49,7 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
+
 }
 
 /* ==========scroll down========== */
@@ -68,32 +70,132 @@ header {
   }
 }
 
-/* ======media queries for mobile(small devices) =========*/
 
-@media screen and (max-width: 600px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+  header {
+    height: 110vh;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 401px) and (max-width: 429px) {
   header {
     height: 80vh;
   }
-  .header__socials,
-  .scroll__down {
-    display: none;
+  .header__socials {
+    left:5%;
+  }
+  .scroll__down{
+    right: 0%;
+  }
+}
+@media only screen and (min-width: 430px) and (max-width: 500px) {
+  header {
+    height: 80vh;
+  }
+  .header__socials {
+    left:10%;
+  }
+  .scroll__down{
+    right: 0%;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+  header {
+    height: 100vh;
+  }
+  .header__container{
+    height: 100%;
+  }
+  .header__socials {
+    left:5%;
+  }
+  .scroll__down{
+    right: 0%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  header {
+    height: 100vh;
+  }
+  .header__container{
+    height: 80%;
+  }
+  .header__socials {
+    left:5%;
+  }
+  .scroll__down{
+    right: 0%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 800px) and (max-width: 992px) {
+  header {
+    height: 70vh;
+  }
+  .header__container{
+    height: 90%;
+  }
+  .header__socials {
+    left:5%;
+  }
+  .scroll__down{
+    right: 0%;
   }
 }
 
 /* ======media queries for laptops (large devices) =========*/
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
   header {
-    height: 130vh; /* Example height for laptops */
+    height: 70vh; /* Example height for laptops */
+  }
+  .header__container{
+    height: 90%;
+  }
+  .header__socials {
+    left:6%;
+  }
+  .scroll__down{
+    right: 5%;
   }
   /* Add more styles specific to laptops here */
 }
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  header {
+    height: 120vh; /* Example height for laptops */
+  }
+  .header__container{
+    height: 90%;
+  }
+  .header__socials {
+    left:5%;
+  }
+  .scroll__down{
+    right: 5%;
+  }
+ 
+}
+
 
 /* ======media queries for desktops (extra-large devices) =========*/
 
 @media screen and (min-width: 1440px) {
   header {
-    height: 60vh; /* Example height for desktops */
+    height: 120vh; /* Example height for laptops */
   }
-  /* Add more styles specific to desktops here */
+  .header__container{
+    height: 100%;
+  }
+  .header__socials {
+    left:5%;
+  }
+  .scroll__down{
+    right: 5%;
+  }
+
 }
