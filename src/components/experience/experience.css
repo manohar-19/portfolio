@@ -72,9 +72,22 @@
   .experience__container div {
     width: 100%;
     padding: 0.5rem 1rem;
+    margin-left: 0%;
   }
   h3{
     padding-top: 20px;
+  }
+  .experience__details-icons {
+    max-width: max-content;
+  }
+  .experience__frontend{
+    max-width: 93%;
+  }
+  .experience__backend{
+    max-width: 93%;
+  }
+  .experience__details div{
+    padding-left: 0.5rem;
   }
 }
 

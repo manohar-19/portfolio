@@ -62,19 +62,20 @@ header {
   font-size: 0.9rem;
 }
 
-/* ======media queries for tablets(medium devices) =========*/
 
-@media screen and (max-width: 1024px) {
-  header {
-    height: 120vh; /*68vh*/
-  }
-}
+
 
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 400px) {
   header {
     height: 110vh;
+  }
+  .header__socials {
+    left:5%;
+  }
+  .scroll__down{
+    right: 0%;
   }
   
 }
@@ -85,7 +86,7 @@ header {
     height: 80vh;
   }
   .header__socials {
-    left:5%;
+    left:8%;
   }
   .scroll__down{
     right: 0%;
