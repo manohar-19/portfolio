@@ -39,7 +39,7 @@ const About = () => {
             </article>
           </div> */}
           <p>
-          I am a <strong>Software Developer</strong> with 2.8 + years of experience in Java development, skilled in Spring technology, RESTful web services, Microservices, and third-party API integration. I am committed to continuous learning and collaborating with cross-functional teams to deliver high-quality software solutions.
+          I am a <strong>Software Developer</strong> with 4 + years of experience in Java development, skilled in Spring technology, RESTful web services, Microservices, and third-party API integration. I am committed to continuous learning and collaborating with cross-functional teams to deliver high-quality software solutions.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
